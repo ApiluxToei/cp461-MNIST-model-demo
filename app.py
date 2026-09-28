@@ -50,3 +50,4 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}. Please ensure the uploaded image is valid and the model is correctly loaded.")
+
